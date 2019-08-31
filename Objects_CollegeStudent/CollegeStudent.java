@@ -7,7 +7,7 @@ public class CollegeStudent
   private int credits;
   private double courseFee;
   
-
+// default constructor
  public CollegeStudent()
  {
     name = "";
@@ -74,15 +74,9 @@ public class CollegeStudent
  {
   return courseFee = newCourseFee;
  }
- 
+ // equivalent of python repr
  public String toString()
  {
    return "name: " + name + ", " + "course title: " + courseTitle + ", course number: " + courseNumber + ", credits: " + credits + ", course fee: " + (credits * costPerHour);
  }
- 
- 
- 
- 
- 
- 
 }
